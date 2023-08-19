@@ -1,0 +1,95 @@
+.poster-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+.poster-header {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.posters-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.poster-item {
+  position: relative;
+  width: 300px;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.poster-item:hover {
+  transform: scale(1.1);
+}
+
+.poster-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.poster-details {
+  padding: 1rem;
+}
+
+.poster-title {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.poster-description {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* Modal styles */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.modal-close {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}

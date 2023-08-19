@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18b03ea3.chunk.css",
+    "main.js": "/static/js/main.8e1a3855.chunk.js",
+    "main.js.map": "/static/js/main.8e1a3855.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.471f78e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.471f78e0.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ffec0ebd.chunk.js": "/static/js/2.ffec0ebd.chunk.js",
+    "static/js/2.ffec0ebd.chunk.js.map": "/static/js/2.ffec0ebd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.18b03ea3.chunk.css.map": "/static/css/main.18b03ea3.chunk.css.map",
+    "static/js/2.ffec0ebd.chunk.js.LICENSE.txt": "/static/js/2.ffec0ebd.chunk.js.LICENSE.txt",
+    "static/media/Header 1.2ee7f4ef.png": "/static/media/Header 1.2ee7f4ef.png",
+    "static/media/Navbar.css": "/static/media/HelloPirates.fcf6c1e2.woff",
+    "static/media/Logo Bawean 2022.9acec773.png": "/static/media/Logo Bawean 2022.9acec773.png",
+    "static/media/Picture2.35e47bb9.png": "/static/media/Picture2.35e47bb9.png",
+    "static/media/Picture3.58e1d0c5.png": "/static/media/Picture3.58e1d0c5.png",
+    "static/media/VideoBanner.css": "/static/media/tanjung-gaang.a7471c3a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.471f78e0.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ffec0ebd.chunk.js",
+    "static/css/main.18b03ea3.chunk.css",
+    "static/js/main.8e1a3855.chunk.js"
+  ]
+}

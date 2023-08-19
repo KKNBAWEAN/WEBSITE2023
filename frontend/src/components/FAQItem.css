@@ -1,0 +1,36 @@
+.accordion-item {
+    cursor: pointer;
+    margin: 10px 10%;
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    /* background: #edf0f1; */
+    color: #333;
+}
+
+.accordion-content {
+    overflow: hidden;
+    padding: 0 20px;
+    transition: all .8s ease;
+    height: 0;
+}
+
+.content-active {
+    padding: 20px;
+    padding-top: 0;
+    height: auto;
+}
+
+.faq-item-icon {
+    width: 25px;
+    position: absolute;
+    right: 20px;
+}

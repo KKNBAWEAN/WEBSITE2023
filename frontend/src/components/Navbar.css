@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Hello Pirates';
+  src: url('../fonts/HelloPirates.eot');
+  src: url('../fonts/HelloPirates.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HelloPirates.woff2') format('woff2'),
+      url('../fonts/HelloPirates.woff') format('woff'),
+      url('../fonts/HelloPirates.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+a{
+  color: #ffffff;
+}
+
+.navbar {
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%);
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  max-width: 100%;
+}
+
+.navbar-logo {
+  color: #112e4e;
+  justify-self: start;
+  /* margin-left: 20px; */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: end;
+  font-family: 'Hello Pirates';
+  text-shadow: 0.75px 1.5px #c5c5c5;
+  justify-self: flex-start;
+}
+
+.navbar-logo-img {
+  width: 100%;
+  max-width: 315px; /* Adjust the max-width as needed */
+  height: auto;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  height: 56px;
+}
+
+.nav-links {
+  color: #112e4e;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0rem 1.2rem;
+  height: 100%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid rgb(38, 100, 142);
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: rgb(38, 100, 142);
+}
+
+.nav-links-mobile {
+  display: none;
+  background: #f6bb35;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 56px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #ffffff;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding: 10px 0;
+  }
+
+  .nav-item {
+    height: auto;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 1rem;
+    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links:hover {
+    background-color: rgb(38, 100, 142);
+    color: #ffffff;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+    font-size: 2.5rem;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: rgb(38, 100, 142);
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(38, 100, 142);
+    padding: 14px 20px;
+    border: 1px solid rgb(38, 100, 142);
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: rgb(38, 100, 142);
+    color: #ffffff;
+    transition: 250ms;
+  }
+}

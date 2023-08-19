@@ -1,0 +1,61 @@
+.wisata-detail-container {
+    min-height: 100vh;
+    padding: 4rem;
+}
+
+.wisata-detail-header {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.wisata-detail-title {
+    margin-bottom: 10px;
+}
+
+.wisata-detail-location {
+    text-align: center;
+    opacity: .5;
+}
+
+.wisata-detail-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.left-wisata-detail {
+    width: 50%;
+}
+
+.right-wisata-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.wisata-detail-img {
+    width: 100%;
+}
+
+.right-wisata-detail {
+    width: 45%;
+}
+
+.wisata-detail-desc {
+    padding-bottom: 50px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.back-btn {
+    position: absolute;
+    opacity: .2;
+    width: 40px;
+    transition: all 0.2s linear;
+}
+
+.back-btn:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
